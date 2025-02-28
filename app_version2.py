@@ -11,7 +11,7 @@ from PIL import Image
 
 # 1. Conectar a la base de datos SQLite
 try:
-    conn = sqlite3.connect(r'C:\Users\rafaf\Desktop\Mi Proyecto\archive\database.sqlite')
+    conn = sqlite3.connect(#UPDATE DATA LOCATION#)
     st.write("Conexión a la base de datos establecida correctamente.")
 except sqlite3.Error as error:
     st.error(f"Error al conectar a la base de datos: {error}")
